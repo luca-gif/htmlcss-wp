@@ -19,6 +19,11 @@ body{
   margin: 0 auto;
 }
 
+.overlay{
+  background-color: rgb(0, 0, 0, .2);
+  height: 100%;
+}
+
 /* HEADER */
 
 header .nav{
@@ -32,8 +37,8 @@ div.logo{
 ul li{
   list-style: none;
   display: inline-block;
-  padding-right: 40px;
-  font-size: 25px;
+  padding-right: 25px;
+  font-size: 15px;
   text-transform: uppercase;
 }
 
@@ -50,27 +55,22 @@ header .header-down{
   background-image: url(../img/banner.jpg);
   background-size:cover;
   background-position: center;
-  height: 1000px;
+  height: 500px;
   margin: auto;
   margin-bottom: 10px;
   border-radius: 20px;
   overflow: hidden;
 }
 
-.overlay{
-  background-color: rgb(0, 0, 0, .2);
-  height: 100%;
-}
-
-h3,p{
+.header-down h3,p{
   width: 50%;
 }
 
 div.text{
   color: white;
-  padding-top: 28%;
+  padding-top: 25%;
   padding-left: 90px;
-  font-size: 35px;
+  font-size: 20px;
 }
 
 
@@ -80,21 +80,22 @@ div.text{
   padding-bottom: 10px;
 }
 
-section.middle{
-  background-color: #0185fd;
-  
-}
-
 section.top{
-  background-color: #abcfe7;
-  height: 50px;
+  padding: 15px 0;
 }
 
 aside.col.col-left{
-  background-color: #abcfe7;
   width: 25%;
-  height: 800px;
   float: left;
+}
+
+div.img-sx{
+  background-image: url(../img/img-1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 section.center{
@@ -104,16 +105,28 @@ section.center{
   float: left;
 }
 
-div.box{
-  background-color: #abcfe7;
-  height: 800px;
+div.img-centro{
+  background-image: url(../img/banner-2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
+
 aside.col.col-right{
-  background-color: #abcfe7;
   width: 25%;
-  height: 800px;
   float: left;
+}
+
+div.img-dx{
+  background-image: url(../img/img-3.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 /* FOOTER */
