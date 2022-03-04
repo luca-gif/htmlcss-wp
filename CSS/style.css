@@ -139,7 +139,10 @@ div.img-dx{
 /* FOOTER */
 
 footer{
-  background-color: #8801fe;
-  height: 50px;
-  margin-top: 10px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+#heart{
+  color: red;
 }
