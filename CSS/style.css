@@ -96,6 +96,7 @@ div.img-sx{
   height: 300px;
   border-radius: 20px;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
 section.center{
@@ -112,6 +113,7 @@ div.img-centro{
   height: 300px;
   border-radius: 20px;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
 
@@ -127,6 +129,11 @@ div.img-dx{
   height: 300px;
   border-radius: 20px;
   overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.corpo-centrale p{
+  width: 100%;
 }
 
 /* FOOTER */
